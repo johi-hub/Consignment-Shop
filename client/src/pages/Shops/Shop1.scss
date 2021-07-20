@@ -1,0 +1,29 @@
+.shop{
+    background-color: #FFF5F5;
+    height: 92vh;
+    
+&__card-container{
+        display: flex;
+        flex-wrap: wrap;
+        // height: 77%;
+        width: 100%;
+        overflow-y: scroll;
+        // justify-content: center;
+    }
+    &__title{
+        font-size: x-large;
+        margin-top: .5rem;
+        text-align: center;
+        color: #353134;
+    }
+    &__description{
+        font-size: small;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        color: #353134;
+    }
+    &__titlecontainer {
+        // height: 23%;
+    }
+}

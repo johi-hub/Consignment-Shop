@@ -1,0 +1,55 @@
+.checkoutform {
+	&__container {
+		height: 100%;
+		// overflow: scroll;
+		width: 100%;
+		border: 1px solid darkgray;
+        border-radius: 8px;
+	}
+}
+.form-row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.form {
+
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__input {
+
+        &--third {
+            width: 100%;
+        }
+        &--first {
+
+        }
+        &-group {
+            width: 80%;
+        }
+    }
+}
+
+.one-line {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content:center;
+}
+
+.one-third {
+    width: 30%;
+}
+
+.one-quarter {
+    width: 20%;
+}
+
+.bottom {
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,44 @@
+.header__seperator {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header {
+    // background-color: #BE9289;
+    background-color: #C59E96;
+    color: #353134;
+    height: 8vh;
+
+    &__dropdown {
+        background-color:red;
+    }
+
+    &__logo{
+        margin-left: 12px;
+    }
+
+    &__link{
+        margin-left: 112px;
+        color: #353134;
+    }
+
+    &__cart{
+        padding-right: 180px;
+    }
+    
+    &__hide{
+        display: none;
+    }
+
+    &__dd-image {
+        height: 25px;
+        width: auto;
+        border-radius: 1px;
+    }
+
+}
+
+.nav-link{
+color: #353134;
+}

@@ -1,0 +1,22 @@
+.landing{
+
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__hero-img{
+        height: 80%;
+        width: auto;
+    }
+
+    &__title{
+        font-size: 2rem;
+    }
+
+    &__desc {
+        font-size: .75rem;
+    }
+}

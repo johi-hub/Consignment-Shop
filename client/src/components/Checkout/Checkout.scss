@@ -1,0 +1,13 @@
+.checkout {
+
+    &__container{
+        height: 80%;
+        // overflow: scroll;
+        width: 80%;
+        border: 1px solid darkgray;
+        margin: 0;
+        border-radius: 8px;
+        background-color: gray;
+        padding-top: 1rem;
+    }
+}

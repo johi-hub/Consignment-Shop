@@ -1,0 +1,26 @@
+#item-desc {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    background-color: rgb(226, 175, 126);
+    opacity: .9;
+    border-radius: 8px;
+    margin: 0 1rem;
+    margin-top: 17.3%;
+    align-self: center;
+    justify-content:center;
+    // text-align: center;
+
+  
+}
+
+.item-desc{
+
+    &__button{
+                width: 65%;
+                align-self: center;   
+                text-align: center;
+    }
+
+    }

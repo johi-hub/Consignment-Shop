@@ -1,0 +1,29 @@
+.sidebar {
+    height: 92vh;
+    border-radius: 0;
+    border-style: none;
+    background-color:#759AAB;
+
+
+    &__btn{
+        background-color: #759AAB;
+        
+        border-radius: 0;
+        border-style: none;
+        border: 1px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+            background-color:#595358;
+            border-style: none;
+        }
+
+        &:focus{
+            background-color: black;
+        }
+
+    }
+}
+

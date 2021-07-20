@@ -1,0 +1,21 @@
+@use "node_modules/bootstrap/scss/bootstrap";
+.app{
+
+height: 100vh;
+    &__container{
+        display: flex;
+}
+
+    &__login-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #FFF5F5;
+        flex-direction: column;
+    }
+}
+
+.el-card__body{
+    display:inline-block;
+}
